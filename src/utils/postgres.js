@@ -1,7 +1,7 @@
 const { Pool } = require('pg')
 
 const pool = new Pool({
-    connectionString: 'postgres://postgres:1111@localhost:5432/najot'
+    connectionString: 'postgres://qrtsgbca:7ILpPLsfqDoTQ0IZLxQUh9iTVfASHnHA@abul.db.elephantsql.com/qrtsgbca'
 })
 
 const fetch = async(SQL, ...params) => {
