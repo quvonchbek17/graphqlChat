@@ -14,7 +14,9 @@ const server = new ApolloServer({
             return token
         }
         return req.headers
-    }
+    },
+    introspection: true,
+    playground:true
 })
 
 server.applyMiddleware({ app })
